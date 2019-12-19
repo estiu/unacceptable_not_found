@@ -1,3 +1,4 @@
+SCRIPT_DIR="$( cd "$( dirname "$0" )" && pwd )"
 
 function command_not_found_handler {
     CURRENT_DIR=${(%):-%x}

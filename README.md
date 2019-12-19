@@ -1,9 +1,12 @@
 # unacceptable_not_found
-Re-writes the command_not_found handler in bash and zsh 
 
-##You must heed my INSTRUCTIONS!!!!!!!!
+## You must heed my INSTRUCTIONS!!!!!!!!
 
-Run the addsource.sh script with your preferred shell to source the handler when you login.
+```
+git clone git@github.com:estiu/unacceptable_not_found.git
+echo "source ~/unacceptable_not_found/command_not_found_zsh" >> ~/.zshrc
+source ~/unacceptable_not_found/command_not_found_zsh
+```
 
 Sound works by default on Mac OS X (tested on 10.10 & 10.11).
 Sound on Linux requires mpg123.
